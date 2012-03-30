@@ -2,6 +2,10 @@
 
 A simple template for use with the [dox](http://github.com/visionmedia/dox) documentation library.
 
+## Installation
+
+    npm install dox-template
+
 ## Usage
 
     dox < my_awesome_lib.js | dox-template -r 0.0.1 > my_awesome_lib_docs.html
