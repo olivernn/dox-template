@@ -10,7 +10,7 @@ var program = require('commander')
 // options
 
 program
-  .version('0.0.1')
+  .version(Template.version)
   .option('-r, --release <release>' , 'specify the release number of the docs that are being built')
   .option('-s, --styles <styles>'  , 'specify a path to a stylesheet to be used')
 

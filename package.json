@@ -1,12 +1,11 @@
 {   "name": "dox-template"
   , "description": "HTML generator for dox"
-  , "version": "0.0.1"
+  , "version": "0.1.0"
   , "author": "Oliver Nightingale <oliver.nightingale1@gmail.com>"
-  , "keywords": ["documentation", "docs", "markdown", "jsdoc"]
+  , "keywords": ["documentation", "docs", "markdown", "jsdoc", "dox"]
   , "bin": { "dox-template": "./bin/dox-template" }
   , "dependencies": {
-      "dox": ">= 0.3.0"
-    , "commander": "0.5.2"
+      "commander": "0.5.2"
     , "mu2": ">= 0.5.0"
   }
 }
