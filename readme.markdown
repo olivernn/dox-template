@@ -6,10 +6,7 @@ Currently this is very rough and could do with a tidy up, just putting it here s
 
 ## Usage
 
-    dox < your-lib.js | node docs/doc_builder.js > docs/index.html
-    dox < your-lib.js > docs/index.json
-
-This has been extracted from the [davis.js](http://davisjs.com) project.  It uses a modified version of the dox library which can be found [here](https://github.com/olivernn/dox).
+    dox < your-lib.js | dox-template -r 0.0.1 > docs/index.html
 
 ## Examples
 
