@@ -12,6 +12,7 @@ var program = require('commander')
 program
   .version(Template.version)
   .option('-r, --release <release>' , 'specify the release number of the docs that are being built')
+  .option('-n, --name <name>' , 'specify the name of the library that is being documented')
   .option('-s, --styles <styles>'  , 'specify a path to a stylesheet to be used')
 
 // examples

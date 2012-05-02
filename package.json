@@ -1,6 +1,6 @@
 {   "name": "dox-template"
   , "description": "HTML generator for dox"
-  , "version": "0.1.0"
+  , "version": "0.1.1"
   , "author": "Oliver Nightingale <oliver.nightingale1@gmail.com>"
   , "keywords": ["documentation", "docs", "markdown", "jsdoc", "dox"]
   , "bin": { "dox-template": "./bin/dox-template" }
